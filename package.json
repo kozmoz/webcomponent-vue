@@ -1,13 +1,15 @@
 {
   "name": "webcomponent-vue",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Demonstration of Web Component within Vue.",
+  "author": "Rob Juurlink <npm@juurlink.org> (https://juur.link)",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.7",
     "vue": "^2.5.22"
   },
   "devDependencies": {

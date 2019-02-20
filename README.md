@@ -1,29 +1,51 @@
-# webcomponent-vue
+# Using Web Components in Vue.js 2.5
 
-## Project setup
-```
-npm install
-```
+It is straightforward to use standard Web Components within Vue. The bindings and events still work as expected.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This simple web component project illustrates the use of web components properties and events within a Vue application.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Getting Started
 
-### Run your tests
+The source code is hosted at [GitHub](https://github.com/kozmoz/webcomponent-vue). 
+
+The following Git command wil clone the project and download the sources to the local machine.  
+
 ```
-npm run test
+$ git clone https://github.com/kozmoz/webcomponent-vue.git 
 ```
 
-### Lints and fixes files
+### Prerequisites
+
+The only requirement is npm.
+
+### Installing
+
+To get the required dependencies, issue the following npm command:
+
 ```
-npm run lint
+$ npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Now start serving the app and open the following URL in the browser:
+[http://localhost:8080/](http://localhost:8080/)  
+
+```
+$ npm run serve
+```
+
+## Resources
+
+### Blogs
+
+* [BLOG: Web Components - Attributes and Properties in Custom Elements](https://alligator.io/web-components/attributes-properties/)
+* [BLOG: Integrate Web Components with Your Vue.js App](https://alligator.io/vuejs/vue-integrate-web-components/)
+
+### Built With
+
+* [Vue.js](https://vuejs.org) 2.5 - The Progressive JavaScript Framework
+* [Vue CLI](https://cli.vuejs.org) 3 - Standard Tooling for Vue.js Development
+
+---
+
+This README.md is based on a template from: 
+https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
