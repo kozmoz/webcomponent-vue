@@ -2,7 +2,11 @@
 
 It is straightforward to use standard Web Components within Vue. The bindings and events still work as expected.
 
-This simple web component project illustrates the use of web components properties and events within a Vue application.
+This simple web component project illustrates the use of a web components with properties and events 
+within a Vue application.
+
+All major browsers are supported, IE 11 included.
+
 
 ## Getting Started
 
@@ -14,9 +18,11 @@ The following Git command wil clone the project and download the sources to the 
 $ git clone https://github.com/kozmoz/webcomponent-vue.git 
 ```
 
+
 ### Prerequisites
 
 The only requirement is npm.
+
 
 ### Installing
 
@@ -33,14 +39,20 @@ Now start serving the app and open the following URL in the browser:
 $ npm run serve
 ```
 
+
 ## Resources
 
 ### Blogs
 
+I used these blog posts as primary source for my code.
+
 * [BLOG: Web Components - Attributes and Properties in Custom Elements](https://alligator.io/web-components/attributes-properties/)
 * [BLOG: Integrate Web Components with Your Vue.js App](https://alligator.io/vuejs/vue-integrate-web-components/)
 
+
 ### Built With
+
+The Vue.js libraries.
 
 * [Vue.js](https://vuejs.org) 2.5 - The Progressive JavaScript Framework
 * [Vue CLI](https://cli.vuejs.org) 3 - Standard Tooling for Vue.js Development
